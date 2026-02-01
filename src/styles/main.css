@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(180deg, #120021, #1b0033);
+  color: #f8eaff;
+  min-height: 100vh;
+}
+
+
+.hero {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  background: linear-gradient(90deg, #ff71ce, #01cdfe);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.hero p {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+  color: #d6c7ff;
+  max-width: 600px;
+}
+
+
+.btn {
+  display: inline-block;
+  margin-top: 3rem;
+  padding: 1rem 2.5rem;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #ff71ce, #01cdfe);
+  color: #120021;
+  font-weight: bold;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 25px #ff71ce;
+}
+
+
+.section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: #01cdfe;
+}
+
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 113, 206, 0.3);
+  border-radius: 20px;
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+}
+
+.card h3 {
+  color: #ff71ce;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  color: #d6c7ff;
+}
+.hero {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: #ff71ce; 
+  text-transform: uppercase;
+  text-shadow:
+    0 0 5px #ff71ce,
+    0 0 10px #ff71ce,
+    0 0 20px #ff71ce,
+    0 0 40px #01cdfe,
+    0 0 80px #01cdfe;
+  transition: all 0.3s ease;
+}
+
+.hero h2:hover {
+  color: #01cdfe;
+  text-shadow:
+    0 0 10px #01cdfe,
+    0 0 20px #01cdfe,
+    0 0 40px #ff71ce,
+    0 0 80px #ff71ce,
+    0 0 100px #ff71ce;
+  transform: rotate(-2deg) scale(1.05);
+}
+
+
+.hero p {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #d6c7ff;
+  line-height: 2rem;
+}
+
+.hero p span {
+  display: inline-block;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 3px #ff71ce;
+  cursor: pointer;
+}
+
+.hero p span:hover {
+  color: #01cdfe;
+  text-shadow:
+    0 0 5px #01cdfe,
+    0 0 15px #ff71ce,
+    0 0 30px #01cdfe;
+  transform: scale(1.2) rotate(-2deg);
+}
